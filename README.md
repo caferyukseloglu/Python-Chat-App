@@ -14,6 +14,10 @@ PORT = input('PORT: ') ### Same as HOST
 if not PORT: ### If there is none you can use basic port which i declared here.
     PORT = 1234
 ```
+## License
+
+This project is licensed under the GPLV3 License - see the [LICENSE](LICENSE) file for details
+
 ## Authors
 
 * **Cafer Yükseloğlu** - *Initial work* - [cfr.yksl](https://github.com/samuhay/)
