@@ -1,8 +1,19 @@
+#https://github.com/samuhay/Python-Chat-App/tree/master
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import tkinter
 import tkinter as tk
 from winsound import *
+
+#Mac Kullanıyorsanız python üzerinden pygame kullanmanız tercih edilir
+"""
+sudo pip install pygame (Terminal ile yükleyin)
+import pygame
+pygame.init()
+pygame.mixer.init()
+sounda= pygame.mixer.Sound("A-Computer Error.wav")
+sounda.play()
+"""
 
 def receive():
     """Gelen mesajlarla ilgili foksiyon."""
